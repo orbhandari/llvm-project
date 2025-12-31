@@ -14,6 +14,7 @@
 # RUN: export CMAKE_GENERATOR=%cmake_generator
 # RUN: export LLVM_USE_LINKER=%llvm_use_linker
 # RUN: export MLIR_DIR="%mlir_cmake_dir"
+# RUN: export MLIR_INCLUDE_TESTS=ON
 
 # RUN: %python -m pip wheel "%mlir_src_root/examples/standalone" -w "%mlir_obj_root/wheelhouse" -v | tee %t
 

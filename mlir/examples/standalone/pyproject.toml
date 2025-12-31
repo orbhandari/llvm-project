@@ -65,3 +65,5 @@ MLIR_PYTHON_PACKAGE_PREFIX = "mlir_standalone"
 # are installed. Thus, this will be the package location (and the name of the package) that pip assumes is
 # the root package.
 MLIR_BINDINGS_PYTHON_INSTALL_PREFIX = "mlir_standalone"
+# Optional
+MLIR_INCLUDE_TESTS = { env = "MLIR_INCLUDE_TESTS", default = "OFF" }
